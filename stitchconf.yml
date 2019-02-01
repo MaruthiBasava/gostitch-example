@@ -1,8 +1,6 @@
 
 stitch_files: 
-  profile_repo: 
+  dog_repo: 
     extension: .sql 
-    directory: sql/profile
+    directory: sql/dog_info
     yield: sql/repos
-    exclude: 
-      - profile_ddl.sql
